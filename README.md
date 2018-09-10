@@ -21,11 +21,11 @@ Now that you have downloaded the project, its time to start making upgrades! The
 * Check out [this tutorial](http://tutorials.jenkov.com/java-internationalization/simpledateformat.html) to get an introduction to Java's `SimpleDateFormat`, which will be useful for this feature.
 
 * Once you have completed this feature, make sure you run the following commands to commit and push this code:
-```
-git add .
-git commit -m "Your commit message here"
-git push
-```
+  ```
+  git add .
+  git commit -m "Your commit message here"
+  git push
+  ```
 
 * Then, look at your repository on GitHub's website. Click on the "Pull Requests" tab and then "New pull request".
 
@@ -33,6 +33,22 @@ git push
 
 * Make sure to add all of your TA's as a reviewer to receive credit!
 
-## Feature 2 - 
+## Feature 2 - Make a `newTweet()` method - 2 points
+
+Our main method is large, and can be difficult to follow. We are going to break up some operations into separate methods to make it easier to read.
+
+* First, we _must_ create our new branch to work on feature 2! This work is going to _build on_ our work done in feature 1, so we should have **feature-1** as our active branch when we create **feature-2**. Remember the command from above to create a new feature branch.
+
+
+
+            ```
+            tweets[numTweets] = keyboard.nextLine();
+            numTweets++;
+            
+            System.out.println(tweeterName + "'s Personal Twitter Feed:");
+            for(int i = 0; i < numTweets; i++) {
+                System.out.println("- " + tweets[i]);
+            }
+            ```
 
 ## Feature 3 - 

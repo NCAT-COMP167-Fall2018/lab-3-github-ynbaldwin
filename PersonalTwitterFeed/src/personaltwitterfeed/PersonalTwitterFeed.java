@@ -56,7 +56,7 @@ public class PersonalTwitterFeed {
     
     public static String getTimeStamp(){
         Date now = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSZ");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         return dateFormat.format(now);
     }
     

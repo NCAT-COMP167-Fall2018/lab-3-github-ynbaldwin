@@ -12,7 +12,7 @@ Now that you have downloaded the project, its time to start making upgrades! The
 
 * _First_, we must make a branch for us to work on. Because this code already exists, it would be very poor practice to simply add code on top of the **master** branch unilaterally. Lets create a branch called **feature-1** that will hold all of our code for this feature.
   * On the command line, enter `git checkout -b feature-1` to create this branch.
-  * Make sure you are within the GitHub-Lab-2 repository to run this command.
+  * Make sure you are within the GitHub-Lab repository to run this command.
 
 * To implement this, should should write a method called `getCurrentTimeStamp()` that returns a `String` representation of the current time.
 
@@ -45,4 +45,16 @@ Our main method is large, and can be difficult to follow. We are going to break 
 
 * Commit, push, and open a new pull request for this feature.
 
-## Feature 3 - 
+## Final step - Review a Friend's Pull Request - 1 point
+
+When you have completed feature 2, have a classmate [add you as a collaborator](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/) to their GitHub-Lab repository. Add this classmate as a collaborator on your repository as well. Now it's time for peer review! 
+
+* Code review is an important part of professional software development! Having a fresh set of eyes look at code can improve software quality greatly, and ensure that requirements are met.
+
+* **Every** professional software development company required code review for their developers.
+
+* Add your classmate as [a reviewer for BOTH pull requests](https://help.github.com/articles/requesting-a-pull-request-review/). Have them add you as well.
+
+* Look over your classmate's changes and [add at least two comments about their code to EACH pull request](https://help.github.com/articles/about-pull-request-reviews/). Either approve or request changes to your classmates pull requests.
+
+* Show your reviews to your TA to receive this credit.

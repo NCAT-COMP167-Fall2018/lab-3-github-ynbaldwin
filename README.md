@@ -39,16 +39,10 @@ Our main method is large, and can be difficult to follow. We are going to break 
 
 * First, we _must_ create our new branch to work on feature 2! This work is going to _build on_ our work done in feature 1, so we should have **feature-1** as our active branch when we create **feature-2**. Remember the command from above to create a new feature branch.
 
+* Now, create a new method called `newTweet()` that will handle accepting input from the user and adding a new tweet to the array called `tweets`. This means you will have to pass the array `tweets` as an argument to `newTweet()`.
 
+* Remove the code from the `main()` method that handles creating a new tweet, and replace it with a call to `newTweet()`.
 
-            ```
-            tweets[numTweets] = keyboard.nextLine();
-            numTweets++;
-            
-            System.out.println(tweeterName + "'s Personal Twitter Feed:");
-            for(int i = 0; i < numTweets; i++) {
-                System.out.println("- " + tweets[i]);
-            }
-            ```
+* Commit, push, and open a new pull request for this feature.
 
 ## Feature 3 - 

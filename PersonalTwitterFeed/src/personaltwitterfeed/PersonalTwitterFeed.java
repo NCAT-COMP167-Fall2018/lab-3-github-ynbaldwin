@@ -25,9 +25,12 @@ public class PersonalTwitterFeed {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Welcome to your personal Twitter!");
         System.out.println("What's your name, tweeter?");
-        
+        System.out.println(getCurrentTimeStamp());
         String tweeterName = keyboard.nextLine();
         
+        
+               
+
         System.out.println("Nice to meet you " + tweeterName + "!");
         System.out.println("Enter your tweets and I will add them to your timeline!");
         
@@ -53,5 +56,11 @@ public class PersonalTwitterFeed {
         
         System.out.println("Your twitter feed is full");
     }
-    
+    public static String getCurrentTimeStamp(){
+        String pattern = "EEEEE dd MMMMM yyyy HH:mm:ss";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        
+        String date = simpleDateFormat.format(new Date());
+        return date;
+    }
 }
